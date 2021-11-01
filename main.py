@@ -173,8 +173,7 @@ questions5 = [
 
 
 def questionnaire(q: Question1) -> Tuple[int, bool]:
-    """Presents the user with the given question.
-    Returns winnings and whether to continue the game."""
+    """Randomizes question and evaluates answer"""
     print(q.question)
     for answer in q.answers:
         print(answer)
@@ -185,7 +184,7 @@ def questionnaire(q: Question1) -> Tuple[int, bool]:
     if usr_input_answer == q.correct:
         return q.amount, True
     elif usr_input_answer == "R":
-        print("Congratulations on retirement, you have: " + str(money) + " points")
+        print("You decided to retire, you have: " + str(money) + " points")
     else:
         print("Game over!")
     return 0, False
