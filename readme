@@ -1,0 +1,20 @@
+Title: "Who Wants to be a Billionaire Game in Python"
+
+Description:
+This project is an interactive implementation of the popular game "Who Wants to be a Billionaire" using Python. The game is designed using object-oriented programming principles, making it easy to understand, extend, and maintain.
+
+Features:
+
+Questions and answers: The game includes a vast collection of questions from various categories such as general knowledge, history, science, and more. Each question is associated with multiple answer choices, and the player must select the correct one.
+Lifelines: The game provides lifelines to assist players in challenging situations. Common lifelines include "50-50" (which eliminates two incorrect answer choices), "Phone a Friend" (which allows the player to consult a virtual friend for help), and "Ask the Audience" (which provides the audience's opinion on the correct answer).
+Difficulty levels: The game offers different difficulty levels, such as easy, medium, and hard. Each level increases the complexity of questions, providing an engaging and challenging experience for players of all skill levels.
+Accumulated winnings: The game keeps track of the player's accumulated winnings throughout the game. As the player progresses and answers questions correctly, their virtual wealth grows, providing a sense of achievement and motivation.
+Game mechanics: The game employs various game mechanics, including multiple rounds, checkpoints, and the option to quit or continue playing. The player starts with lower-value questions and gradually progresses towards higher-value questions, with the ultimate goal of reaching the jackpot question and becoming a billionaire!
+Implementation:
+The project utilizes Python's object-oriented programming (OOP) paradigm, with classes representing different game components such as Question, Player, Lifelines, and GameEngine. It employs loops, conditional statements, and user input/output to provide an interactive and engaging gameplay experience. The project showcases good software design principles, including encapsulation, modularity, and separation of concerns.
+
+This "Who Wants to be a Billionaire Game in Python" project serves as an excellent example of leveraging OOP concepts and Python programming skills to create an entertaining and educational game. It can be extended further with additional features, customization options, and even integration with a graphical user interface (GUI) for a more immersive gameplay experience.
+
+Feel free to customize and enhance the project according to your preferences and share it with others on GitHub, allowing fellow Python enthusiasts to enjoy the thrill of the "Who Wants to be a Billionaire" game!
+
+Happy coding and have fun playing the game!
